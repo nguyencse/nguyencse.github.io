@@ -52635,7 +52635,7 @@ m=L.a31(C.pk,C.kc)
 l=P.c7(0,50)
 k=B.mw(C.i,g*0.03,C.cs,i)
 j=t.fQ
-j=T.LL(H.c([T.nM(C.eW,H.c([s,T.rQ(i,T.LL(H.c([p,o,n,T.Ck(H.c([m,U.a8t(!0,l,H.c([" Mobile Developer"," AI Developer"],t.i),k)],j),C.cr,C.d9)],j),C.hr,C.fN,C.d9),i,i,r,f*0.01,q,i)],j),C.eR)],j),C.cr,C.fN,C.d9)
+j=T.LL(H.c([T.nM(C.eW,H.c([s,T.rQ(i,T.LL(H.c([p,o,n,T.Ck(H.c([m,U.a8t(!0,l,H.c([" Mobile Developer"," AI Researcher"],t.i),k)],j),C.cr,C.d9)],j),C.hr,C.fN,C.d9),i,i,r,f*0.01,q,i)],j),C.eR)],j),C.cr,C.fN,C.d9)
 return M.ed(i,new E.CI(!0,j,i),i,i,i,1/0,i,i,1/0)}}
 X.zF.prototype={
 K:function(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=t.w,h=b.U(i).f.a.b,g=b.U(i).f.a.a
@@ -52651,7 +52651,7 @@ m=T.kY(j,8,j)
 l=L.a31(C.pk,C.kc)
 k=P.c7(0,50)
 s=B.mw(C.i,s,C.cs,j)
-return M.ed(j,T.nM(C.eW,H.c([i,M.ed(j,T.LL(H.c([q,p,n,o,m,T.Ck(H.c([l,U.a8t(!0,k,H.c([" Flutter Developer"," AI Writer"],t.i),s)],r),C.cr,C.d9)],r),C.hr,C.fN,C.d9),j,j,j,j,new V.b_(g*0.07,h*0.12,0,0),j,j)],r),C.eR),j,j,j,h,j,j,g)}}
+return M.ed(j,T.nM(C.eW,H.c([i,M.ed(j,T.LL(H.c([q,p,n,o,m,T.Ck(H.c([l,U.a8t(!0,k,H.c([" Mobile Developer"," AI Researcher"],t.i),s)],r),C.cr,C.d9)],r),C.hr,C.fN,C.d9),j,j,j,j,new V.b_(g*0.07,h*0.12,0,0),j,j)],r),C.eR),j,j,j,h,j,j,g)}}
 F.qZ.prototype={
 aD:function(){return new F.G0(C.l)}}
 F.G0.prototype={
