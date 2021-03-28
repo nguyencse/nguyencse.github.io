@@ -52543,7 +52543,7 @@ U.nQ.prototype={
 aH:function(){return new U.HZ(C.b3,C.l)}}
 U.HZ.prototype={
 M:function(a,b){var s=null,r=this.d,q=K.a5Y(new P.bH(2,2)),p=this.a
-return R.Pm(!1,!0,M.ft(s,new Q.A2(p.d,L.i2(p.c,A.fZ(s,s,C.j,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s),s),s),s,s,new S.e8(r,s,s,q,s,s,C.ae),s,C.vm,C.p3,s),s,!0,s,s,s,s,s,s,s,new U.a_v(this),s,new U.a_w(),s)}}
+return R.Pm(!1,!0,M.ft(s,new Q.A2(p.d,L.i2(p.c,A.fZ(s,s,C.j,s,s,s,s,s,s,s,s,12,s,s,s,s,!0,s,s,s,s,s,s),s),s),s,s,new S.e8(r,s,s,q,s,s,C.ae),s,C.vm,C.p3,s),s,!0,s,s,s,s,s,s,s,new U.a_v(this),s,new U.a_w(),s)}}
 U.a_w.prototype={
 $0:function(){},
 $S:1}
@@ -52561,21 +52561,22 @@ $S:1}
 F.An.prototype={
 M:function(a,b){return new S.qW(new F.qQ(null),"Nguyen Y Nguyen",X.a8a(null,C.k,X.a8k()),null)}}
 A.zv.prototype={
-M:function(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=t.w,h=b.X(i).f.a.b,g=b.X(i).f.a.a
-i=g<1200
-s=i?h*0.15:h*0.1
-r=i?h*0.7:h*0.75
-s=T.Bk(j,new U.qt(M.ahK(j,j,new L.pp("assets/images/nguyenny.png",j,j)),r,j),j,j,j,g*0.1,s,j)
-r=i?h*0.2:h*0.15
-q=L.i2("Nguyen Y",B.a2K(C.j,i?h*0.07:h*0.075,C.cq,4),j)
-p=L.i2("Nguyen",B.a2K(C.j,i?h*0.07:h*0.075,C.af,5),j)
-o=T.ts(j,16,j)
-n=L.a6P(C.vI,C.mH)
-m=P.cd(0,50)
-l=B.a2K(C.j,h*0.03,C.hr,j)
-k=t.fQ
-k=T.a2w(H.c([T.tE(C.hg,H.c([s,T.Bk(j,T.a2w(H.c([q,p,o,T.a3g(H.c([n,new U.Dk(U.ais(H.c([" Mobile Developer"," AI Developer"],t.i),C.aJ,l,m,C.co),C.iY,!1,!1,j,j,j,j,!0,!0,3,j)],k),C.hn,C.i0)],k),C.iR,C.i_,C.i0),j,j,150,g*0.01,r,j)],k),C.h7)],k),C.hn,C.i_,C.i0)
-return M.ft(j,new E.Cx(!0,k,j),j,j,j,1/0,j,j,1/0)}}
+M:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=t.w,g=b.X(h).f.a.b,f=b.X(h).f.a.a
+h=f<1200
+s=h?g*0.15:g*0.1
+r=f*0.1
+q=h?g*0.7:g*0.75
+s=T.Bk(i,new U.qt(M.ahK(i,i,new L.pp("assets/images/nguyenny.png",i,i)),q,i),i,i,i,r,s,i)
+q=h?g*0.2:g*0.15
+p=L.i2("Nguyen Y",B.a2K(C.j,h?g*0.05:g*0.075,C.cq,4),i)
+o=L.i2("Nguyen",B.a2K(C.j,h?g*0.05:g*0.075,C.af,5),i)
+n=T.ts(i,16,i)
+m=L.a6P(C.vI,C.mH)
+l=P.cd(0,50)
+k=B.a2K(C.j,g*0.03,C.hr,i)
+j=t.fQ
+j=T.a2w(H.c([T.tE(C.hg,H.c([s,T.Bk(i,T.a2w(H.c([p,o,n,T.a3g(H.c([m,new U.Dk(U.ais(H.c([" Mobile Developer"," AI Developer"],t.i),C.aJ,k,l,C.co),C.iY,!1,!1,i,i,i,i,!0,!0,3,i)],j),C.hn,C.i0)],j),C.iR,C.i_,C.i0),i,i,r,f*0.01,q,i)],j),C.h7)],j),C.hn,C.i_,C.i0)
+return M.ft(i,new E.Cx(!0,j,i),i,i,i,1/0,i,i,1/0)}}
 F.qQ.prototype={
 aH:function(){return new F.FP(C.l)}}
 F.FP.prototype={
