@@ -3,23 +3,38 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "7ee8d0621734fef97acad84c8736be6d",
-"index.html": "86b37ca4052282bf4de68465fa6e2950",
-"/": "86b37ca4052282bf4de68465fa6e2950",
-"main.dart.js": "e876d2fd4723b11c35357f7d27ec465c",
-"favicon.png": "03150e17e6215bd1a25d5f5cb0ec463f",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+  "assets/assets/fonts/Garet-Book.ttf": "7f91cc55274be169d82f910b99a3ecd1",
+"assets/assets/fonts/Garet-Heavy.ttf": "33cd5f07eb8c9cc8347e9e99092999a5",
+"assets/assets/fonts/MADETommySoft.otf": "8f7acd078b2ba775933de1fed4ffed8b",
+"assets/assets/fonts/Genera-SemiBold.ttf": "ccf4d2dff9ec83ccaeb94fa1df5ec04b",
+"assets/assets/images/avatar.png": "8dcf77b6e318bab0b6381b0951e0dae9",
+"assets/assets/images/sendofarm/5.jpg": "ca94da2dc997e703e35ff8e728cc0b78",
+"assets/assets/images/sendofarm/4.jpg": "97fc85a08da9b7ecd490ced8ad527329",
+"assets/assets/images/sendofarm/3.jpg": "f55157002543a3499f3d29baa1ea35c1",
+"assets/assets/images/sendofarm/2.jpg": "a052eeaa8307a7908125dee234cadbeb",
+"assets/assets/images/sendofarm/1.jpg": "a02204b94fbeed51cae2d1aa27616ecf",
+"assets/assets/icons/linkedin.png": "82543b54028f0766a49b91d9951f7819",
+"assets/assets/icons/facebook.png": "6abc2462367b9e5345df9ab8b3b6c4ca",
+"assets/assets/icons/github.png": "b8500c75a507d596ebeee9e605615f23",
+"assets/NOTICES": "74b21aa3940de86b5f02c66df88e9bb7",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/FontManifest.json": "dd22e08bfc8e26b283a63977dc18d489",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/AssetManifest.json": "48f9b4503d0ea914c0b3df0ef3120494",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"index.html": "e0bc6f3a94c06c837195e9c4b58ad97c",
+"/": "e0bc6f3a94c06c837195e9c4b58ad97c",
+"main.dart.js": "1e648ba1407415879b8252bd2a112303",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"version.json": "0ccade50bf409fa4622496ca87834ad4",
+"manifest.json": "df8fb86d3f18bae47915718a17d44a3e",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "e8aee447e2c3013e8b7adadc8df6e63b",
-"assets/AssetManifest.json": "c40d58dc63290584f9d672099f39d6c3",
-"assets/NOTICES": "c56f7e1994109d55749fc3e2b38df3d1",
-"assets/FontManifest.json": "844933c9184eb66545106d1698570ac1",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/assets/images/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
-"assets/assets/images/nguyenny.png": "866eef81bc4963742a12a597afcf8699",
-"assets/assets/fonts/agustina.otf": "03cfd7bcf39ceb6e0a84beda5d7b9a0b",
-"assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb"
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -37,7 +52,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
